@@ -20,4 +20,8 @@ diffutils \
 coreutils \
 procps-ng \
 util-linux \
+archiso \
+zip \
+unzip \
+pkgconf \
 && yes | pacman -Scc && rm -fr /var/lib/pacman/sync/*
