@@ -24,4 +24,5 @@ archiso \
 zip \
 unzip \
 pkgconf \
+sh \
 && yes | pacman -Scc && rm -fr /var/lib/pacman/sync/*
